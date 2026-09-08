@@ -1,0 +1,7 @@
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+s = int(a + b + c)
+m = float(s/3)
+print(s, format(m,".2f"), sep=" ")
