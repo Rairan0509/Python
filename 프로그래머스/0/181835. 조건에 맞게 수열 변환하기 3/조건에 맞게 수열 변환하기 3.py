@@ -1,6 +1,11 @@
 def solution(arr, k):
-    if k%2 == 0:
-        r =[i+k for i in arr]
+    if k % 2 == 1:
+        arr1 = []
+        for number in arr:
+            arr1.append(number * k)
+        return arr1
     else:
-        r =[i*k for i in arr]
-    return r
+        arr1 = []
+        for number in arr:
+            arr1.append(number + k)
+        return arr1
