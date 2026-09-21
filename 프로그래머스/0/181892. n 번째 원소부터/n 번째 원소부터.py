@@ -1,2 +1,5 @@
 def solution(num_list, n):
-    return num_list[n-1:]
+    result = []
+    for i in range(n-1, len(num_list)):
+        result.append(num_list[i])
+    return result
