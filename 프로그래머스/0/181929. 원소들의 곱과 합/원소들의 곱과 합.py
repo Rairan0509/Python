@@ -1,9 +1,11 @@
 def solution(num_list):
-    total = 0
-    multi = 1
-    for number in num_list:
-        total += number
-        multi *= number
-    if multi < total**2 :
+    sum = 0
+    multiple = 1
+    for num in num_list:
+        sum += num
+        multiple *= num
+
+    if multiple < sum**2:
         return 1
-    return 0
+    else:
+        return 0
