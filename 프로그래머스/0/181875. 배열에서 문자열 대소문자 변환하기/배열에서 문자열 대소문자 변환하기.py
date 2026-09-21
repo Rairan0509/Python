@@ -1,7 +1,8 @@
 def solution(strArr):
+    result = []
     for idx in range(len(strArr)):
-        if idx % 2 != 0:
-            strArr[idx]=strArr[idx].upper()
+        if idx % 2 == 0:
+            result.append(strArr[idx].lower())
         else:
-            strArr[idx]=strArr[idx].lower()
-    return strArr
+            result.append(strArr[idx].upper())
+    return result
