@@ -6,6 +6,6 @@ def solution(n, control):
             n -= 1
         elif wasd == "d":
             n += 10
-        else:
+        elif wasd == "a":
             n -= 10
     return n
