@@ -1,5 +1,5 @@
 def solution(arr):
-    X = []
-    for number in arr:
-        X.extend([number]*number)
-    return X
+    arr1 = []
+    for num in arr:
+        arr1.extend([num]*num)
+    return arr1 
